@@ -3,13 +3,13 @@ import ProductDetail from "./Component/ProductDetail";
 import AddProduct from "./Component/AddProduct";
 import CartItems from "./Component/CartItems";
 import ProductItemList from "./Component/ProductItemList";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { addproducts } from "./actions/index";
 import customFetch from "./apiCall";
 import { useEffect } from "react";
 import React from 'react';
-import { HashRouter, Route, Switch,Routes } from 'react-router-dom';
+// import { HashRouter, Route, Switch,Routes } from 'react-router-dom';
 
 function App() {
   let productDetailItem = useSelector((state) => state.itemToDisplay);
@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter>
         <Nav />
         <Routes>
           <Route path="/" element={<ProductItemList />} />
@@ -46,7 +46,7 @@ function App() {
           />
           <Route path="/cart" element={<CartItems />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
