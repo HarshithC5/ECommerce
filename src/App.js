@@ -3,7 +3,7 @@ import ProductDetail from "./Component/ProductDetail";
 import AddProduct from "./Component/AddProduct";
 import CartItems from "./Component/CartItems";
 import ProductItemList from "./Component/ProductItemList";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, HashRouter, Route } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { addproducts } from "./actions/index";
 import customFetch from "./apiCall";
