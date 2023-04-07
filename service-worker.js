@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/HarshithC5/ECommerce/precache-manifest.ce72f4f8e531c980b42d6b2530b015a4.js"
+  "/HarshithC5/ECommerce/precache-manifest.c740b8785fae9d59febb96dac9d49a31.js"
 );
 
 workbox.clientsClaim();
