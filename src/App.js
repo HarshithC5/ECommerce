@@ -8,6 +8,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { addproducts } from "./actions/index";
 import customFetch from "./apiCall";
 import { useEffect } from "react";
+import React from 'react';
 
 function App() {
   let productDetailItem = useSelector((state) => state.itemToDisplay);
