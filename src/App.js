@@ -35,8 +35,8 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
-      <HashRouter basename="/">
+      <HashRouter>
+ 
         <Nav />
         <Routes>
           <Route path="/" element={<ProductItemList />} />
@@ -47,8 +47,8 @@ function App() {
           />
           <Route path="/cart" element={<CartItems />} />
         </Routes>
-        </HashRouter>
-      </BrowserRouter>
+        
+      </HashRouter>
     </div>
   );
 }
