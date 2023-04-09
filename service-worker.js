@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/HarshithC5/ECommerce/precache-manifest.c740b8785fae9d59febb96dac9d49a31.js"
+  "/ECommerce/precache-manifest.120d2fc24b38ba2dadf7a0ba08e20ec8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/HarshithC5/ECommerce/index.html", {
+workbox.routing.registerNavigationRoute("/ECommerce/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
